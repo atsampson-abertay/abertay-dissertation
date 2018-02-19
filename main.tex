@@ -1,0 +1,120 @@
+% Example main source file.
+
+\documentclass{abertayhons}
+
+\addbibresource{refs.bib}
+
+\usepackage{hyperref}
+
+% \blindtext is used in various places to generate some example text;
+% in your real dissertation you won't need this package.
+\usepackage{blindtext}
+
+\begin{document}
+
+\frontmatter
+
+\title{The construction of a \LaTeX\ class for Abertay honours
+dissertations}
+\author{Adam Sampson}
+\degree{BSc (Hons) Underwater Basket Weaving}
+\year{2018}
+\school{School of Design and Informatics}
+\maketitle
+
+\tablematter
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\frontmatter
+
+\begin{acknowledgements}
+\Blindtext[1]
+\end{acknowledgements}
+
+\begin{abstract}
+\Blindtext[2]
+\end{abstract}
+
+\mainmatter
+
+\chapter{Introduction}
+
+The \LaTeX\ system is pretty good for formatting
+%dissertations~\citep{wblatex}.
+\blindtext
+
+As shown by~\cite{llvm}, the LLVM compiler framework is also really cool.
+\blindtext
+
+\blindtext
+The implementation of this algorithm is shown in~\autoref{fig:somecode}.
+
+\begin{figure}
+% See the "listings" package for fancier code formatting.
+\begin{verbatim}
+// Work out the point in the complex plane that
+// corresponds to this pixel in the output image.
+complex<double> c(left + (x * (right - left) / WIDTH),
+		  top + (y * (bottom - top) / HEIGHT));
+
+// Start off z at (0, 0).
+complex<double> z(0.0, 0.0);
+\end{verbatim}
+\caption{Some code.}
+\label{fig:somecode}
+\end{figure}
+
+\Blindtext
+
+\section{Research Question}
+
+\Blindtext[1]
+
+\section{Objectives}
+
+\blinditemize
+
+\chapter{Literature Review}
+
+\Blindtext
+
+\chapter{Methodology}
+
+\blindmathpaper
+
+\chapter{Results}
+
+\Blindtext
+
+\chapter{Discussion}
+
+\Blindtext
+
+\chapter{Conclusion and Future Work}
+
+\section{Conclusion}
+
+\Blindtext
+
+\section{Future Work}
+
+\Blindtext
+
+\appendix
+
+\chapter{Table of Tables of Tables}
+
+\Blindtext[2]
+
+\chapter{Survey Responses}
+
+\Blindtext[7]
+
+\printbibliography
+
+\end{document}
