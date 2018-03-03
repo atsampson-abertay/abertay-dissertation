@@ -9,7 +9,7 @@ guidelines for honours dissertations.
 
 ## User guide
 
-Please refer to **[Wiki](wiki/Home)** for further details.
+Please refer to **[Wiki](https://github.com/atsampson-abertay/abertay-dissertation/wiki)** for further details.
 
 ---
 
