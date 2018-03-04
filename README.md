@@ -5,21 +5,15 @@ Adam Sampson <a.sampson@abertay.ac.uk>
 This is a (draft!) LaTeX style that implements Abertay's style
 guidelines for honours dissertations.
 
----
-
 ## User guide
 
 Please refer to **[Wiki](https://github.com/atsampson-abertay/abertay-dissertation/wiki)** for further details.
-
----
 
 ## License
 
 This project is distributed under ***The LaTeX Project Public License Version 1.3c***  
 
 Please refer to **[LICENSE](LICENSE)** for further details.
-
----
 
 ## TODO
 
